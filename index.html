@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehical Survey</title>
+    <link rel="stylesheet" href="Styles.css">
+
+</head>
+
+<body>
+
+  <h1 id="title"> Vehicle Brand</h1>
+  <p id="description">Fill details below </p>
+  <form id="survey-form">
+    <div class="headings">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" value="name" placeholder="Elon Musk." class="headings" required>
+      <br></br>
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="FirstLast@gmail.com." class="headings" required>
+      <br></br>
+      <label for="number" id="number-label">Age</label>
+      <input id="number" type="number" name="number" placeholder="20" min="18" max="100" class="headings" required> </input>
+      <br></br>
+      <label for="dropdown" id="model"> Select Brand </label>
+      <select id="dropdown" class="headings">
+        <option value="Model_s"> Chevrolet </option>
+        <option value="Model_3"> Ford </option>
+        <option value="Model_x"> Nisan </option>
+        <option value="Model_y"> Toyota </option>
+        <option value="Cyber_Truck"> Tesla </option>
+      </select>
+      <br></br>
+      <br></br>
+      <label for="model_color" id="model_color"> <b> Model Color: </b> </label>
+      <br></br>
+      <label for="model_color"> Black </label>
+      <input id="model_color" type="radio" id="black" name="color" value="Black">
+      <br></br>
+      <label for="model_color"> White </label>
+      <input id="model_color" type="radio" id="white" name="color" value="White">
+      <br></br>
+      <label for="model_color"> Blue </label>
+      <input id="model_color" type="radio" id="blue" name="color" value="Blue">
+      <br></br>
+      <label for="model_color"> Red </label>
+      <input id="model_color" type="radio" id="red" name="color" value="Red">
+      <br></br>
+      <label for="features"> <b> Add Features: </b> </label>
+      <br></br>
+      <input id="checkbox" type="checkbox" name="features" value="autopilot">
+      <label for="checkbox"> Full Self Driving (Autopilot) $10,000 </label>
+      <br></br>
+      <input id="checkbox" type="checkbox" name="features" value="all wheel">
+      <label for="checkbox"> All wheel drive or 4X4 $15,000 </label>
+      <br></br>
+      <input id="checkbox" type="checkbox" name="features" value="hybrid">
+      <label for="checkbox"> Hybrid $20,000</label>
+      <br></br>
+      <input id="checkbox" type="checkbox" name="features" value="fully loaded">
+      <label for="checkbox"> Fully Loaded $6,000 </label>
+      <br></br>
+      <br></br>
+      <label id="textarea"> Additional Comments </label>
+      <br></br>
+      <textarea id="textarea" name="instructions" rows="5" colums="40"></textarea>
+      <br></br>
+      <input id="submit" type="Submit" class="submit" value="Place Order">
+    </div>
+  </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

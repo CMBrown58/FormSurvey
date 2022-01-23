@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+body {
+  font-family: "poppins";
+  line-height: 1.4;
+  background-color: rgb(184, 184, 184);
+  width: 500px;
+  margin: auto;
+}
+#survey-form {
+
+  padding: auto;
+  border-radius: 2rem;
+  width: 500px;
+  margin: auto;
+}
+.submit {
+  width: 100%;
+  padding: 0.75rem;
+  background: rgb(149, 144, 141);
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.headings {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid;
+  border-color: rgb(204, 184, 182);
+  border-radius: 0.25rem;
+}
